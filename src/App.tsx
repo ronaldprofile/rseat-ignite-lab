@@ -1,5 +1,5 @@
-import { Event } from "./pages/Event";
+import { Router } from "./Router";
 
 export function App() {
-  return <Event />;
+  return <Router />;
 }
