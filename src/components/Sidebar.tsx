@@ -42,7 +42,7 @@ export function Sidebar() {
             title={lesson.title}
             type={lesson.lessonType}
             availableAt={new Date(lesson.availableAt)}
-            slug={lesson.slug}
+            lessonSlug={lesson.slug}
           />
         ))}
       </div>
